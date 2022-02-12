@@ -249,7 +249,7 @@ struct SideBar: View {
                 
                 VStack(spacing: 8){
                     
-                    Image("business")
+                    Image("")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                     
