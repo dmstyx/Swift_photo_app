@@ -13,5 +13,7 @@ struct PintrestApp: App {
         WindowGroup {
             ContentView()
         }
+        // Hidding the title bar
+        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		076F1E2027B6EAFA00B6D9F8 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 076F1E1F27B6EAFA00B6D9F8 /* SDWebImageSwiftUI */; };
+		076F1E2327B6EB6A00B6D9F8 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076F1E2227B6EB6A00B6D9F8 /* ImageModel.swift */; };
+		076F1E2627B6EC4F00B6D9F8 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076F1E2527B6EC4F00B6D9F8 /* ImageViewModel.swift */; };
+		076F1E2727B6ECA600B6D9F8 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076F1E2527B6EC4F00B6D9F8 /* ImageViewModel.swift */; };
+		076F1E2827B6ECB900B6D9F8 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076F1E2227B6EB6A00B6D9F8 /* ImageModel.swift */; };
+		07B862EA27B42C0B003ACB52 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B862E927B42C0B003ACB52 /* TabButton.swift */; };
+		07B862EB27B42C0B003ACB52 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B862E927B42C0B003ACB52 /* TabButton.swift */; };
 		07DC64AA27B3ED1D004678F7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DC64A927B3ED1D004678F7 /* Tests_iOS.swift */; };
 		07DC64AC27B3ED1D004678F7 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DC64AB27B3ED1D004678F7 /* Tests_iOSLaunchTests.swift */; };
 		07DC64B627B3ED1D004678F7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DC64B527B3ED1D004678F7 /* Tests_macOS.swift */; };
@@ -17,6 +24,11 @@
 		07DC64BC27B3ED1D004678F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DC649227B3ED1B004678F7 /* ContentView.swift */; };
 		07DC64BD27B3ED1D004678F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DC649327B3ED1D004678F7 /* Assets.xcassets */; };
 		07DC64BE27B3ED1D004678F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DC649327B3ED1D004678F7 /* Assets.xcassets */; };
+		07DC64CF27B3ED88004678F7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DC64CE27B3ED88004678F7 /* Home.swift */; };
+		07DC64D027B3EDBC004678F7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DC64CE27B3ED88004678F7 /* Home.swift */; };
+		07DC64D227B3F01D004678F7 /* BlurWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DC64D127B3F01D004678F7 /* BlurWindow.swift */; };
+		07DC64D327B3F01D004678F7 /* BlurWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DC64D127B3F01D004678F7 /* BlurWindow.swift */; };
+		07E75A2027B7CC95006C72FA /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 07E75A1F27B7CC95006C72FA /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		076F1E2227B6EB6A00B6D9F8 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		076F1E2527B6EC4F00B6D9F8 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		07B862E927B42C0B003ACB52 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		07DC649127B3ED1B004678F7 /* PintrestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PintrestApp.swift; sourceTree = "<group>"; };
 		07DC649227B3ED1B004678F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		07DC649327B3ED1D004678F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		07DC64B127B3ED1D004678F7 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07DC64B527B3ED1D004678F7 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		07DC64B727B3ED1D004678F7 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		07DC64CE27B3ED88004678F7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		07DC64D127B3F01D004678F7 /* BlurWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurWindow.swift; sourceTree = "<group>"; };
+		07E75A2127B7E375006C72FA /* Pintrest (macOS)Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pintrest (macOS)Debug.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076F1E2027B6EAFA00B6D9F8 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E75A2027B7CC95006C72FA /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,20 +103,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		076F1E2127B6EB2F00B6D9F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				076F1E2227B6EB6A00B6D9F8 /* ImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		076F1E2427B6EC2B00B6D9F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				076F1E2527B6EC4F00B6D9F8 /* ImageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		07DC648B27B3ED1B004678F7 = {
 			isa = PBXGroup;
 			children = (
+				07E75A2127B7E375006C72FA /* Pintrest (macOS)Debug.entitlements */,
 				07DC649027B3ED1B004678F7 /* Shared */,
 				07DC649F27B3ED1D004678F7 /* macOS */,
 				07DC64A827B3ED1D004678F7 /* Tests iOS */,
 				07DC64B427B3ED1D004678F7 /* Tests macOS */,
 				07DC649927B3ED1D004678F7 /* Products */,
+				07E75A1E27B7CC95006C72FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		07DC649027B3ED1B004678F7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				076F1E2427B6EC2B00B6D9F8 /* ViewModel */,
+				076F1E2127B6EB2F00B6D9F8 /* Model */,
+				07DC64CD27B3ED2B004678F7 /* VIew */,
 				07DC649127B3ED1B004678F7 /* PintrestApp.swift */,
 				07DC649227B3ED1B004678F7 /* ContentView.swift */,
 				07DC649327B3ED1D004678F7 /* Assets.xcassets */,
@@ -141,6 +182,23 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		07DC64CD27B3ED2B004678F7 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				07DC64CE27B3ED88004678F7 /* Home.swift */,
+				07DC64D127B3F01D004678F7 /* BlurWindow.swift */,
+				07B862E927B42C0B003ACB52 /* TabButton.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		07E75A1E27B7CC95006C72FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +215,9 @@
 			dependencies = (
 			);
 			name = "Pintrest (iOS)";
+			packageProductDependencies = (
+				076F1E1F27B6EAFA00B6D9F8 /* SDWebImageSwiftUI */,
+			);
 			productName = "Pintrest (iOS)";
 			productReference = 07DC649827B3ED1D004678F7 /* Pintrest.app */;
 			productType = "com.apple.product-type.application";
@@ -174,6 +235,9 @@
 			dependencies = (
 			);
 			name = "Pintrest (macOS)";
+			packageProductDependencies = (
+				07E75A1F27B7CC95006C72FA /* SDWebImageSwiftUI */,
+			);
 			productName = "Pintrest (macOS)";
 			productReference = 07DC649E27B3ED1D004678F7 /* Pintrest.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +313,9 @@
 				Base,
 			);
 			mainGroup = 07DC648B27B3ED1B004678F7;
+			packageReferences = (
+				076F1E1E27B6EAFA00B6D9F8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 07DC649927B3ED1D004678F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,7 +366,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076F1E2627B6EC4F00B6D9F8 /* ImageViewModel.swift in Sources */,
+				07DC64D227B3F01D004678F7 /* BlurWindow.swift in Sources */,
+				076F1E2327B6EB6A00B6D9F8 /* ImageModel.swift in Sources */,
 				07DC64BB27B3ED1D004678F7 /* ContentView.swift in Sources */,
+				07DC64CF27B3ED88004678F7 /* Home.swift in Sources */,
+				07B862EA27B42C0B003ACB52 /* TabButton.swift in Sources */,
 				07DC64B927B3ED1D004678F7 /* PintrestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,8 +380,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076F1E2727B6ECA600B6D9F8 /* ImageViewModel.swift in Sources */,
+				07DC64D327B3F01D004678F7 /* BlurWindow.swift in Sources */,
 				07DC64BC27B3ED1D004678F7 /* ContentView.swift in Sources */,
+				07DC64D027B3EDBC004678F7 /* Home.swift in Sources */,
+				07B862EB27B42C0B003ACB52 /* TabButton.swift in Sources */,
 				07DC64BA27B3ED1D004678F7 /* PintrestApp.swift in Sources */,
+				076F1E2827B6ECB900B6D9F8 /* ImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,7 +601,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Pintrest (macOS)Debug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -703,6 +780,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		076F1E1E27B6EAFA00B6D9F8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		076F1E1F27B6EAFA00B6D9F8 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 076F1E1E27B6EAFA00B6D9F8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		07E75A1F27B7CC95006C72FA /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 076F1E1E27B6EAFA00B6D9F8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 07DC648C27B3ED1B004678F7 /* Project object */;
 }
